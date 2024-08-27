@@ -27,10 +27,10 @@ const Footer = () => (
                     <Image src="/icons/youtube.svg" width={30} height={30} alt="Youtube Page" />
                 </Link>
                 <Link href="/" className="mr-4">
-                    <Image src="/icons/facebook.svg" width={30} height={30} alt="Youtube Page" />
+                    <Image src="/icons/facebook.svg" width={30} height={30} alt="Facebook Page" />
                 </Link>
                 <Link href="/">
-                    <Image src="/icons/instagram.svg" width={30} height={30} alt="Youtube Page" />
+                    <Image src="/icons/instagram.svg" width={30} height={30} alt="Instagram Page" />
                 </Link>
             </div>
             Support: bluew5360@gmail.com

@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="flex flex-row justify-around items-center gap-10 mt-32">
+                <div className="flex flex-wrap items-center mt-28">
                     {species.map((sp) => (
                         <CustomCard key={sp.id} species={sp} href={`species/${sp.id}`} />
                     ))}
