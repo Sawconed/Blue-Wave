@@ -25,17 +25,16 @@ export default function Contact() {
                             Hãy ghé thăm các trang mạng xã hội của chúng tôi để tìm hiểu thêm về chiến dịch và tham gia vào các hoạt động
                             bảo vệ môi trường biển.
                         </p>
-                        <p className="text-white">
-                            {/* <Link href="/" className="mr-4">
-                                <Image src="/icons/youtube.svg" width={30} height={30} alt="Youtube Page" />
+                        <p className="flex flex-row items-center">
+                            <Link href="/" className="mr-4">
+                                <Image src="/icons/youtube-sub.svg" width={30} height={30} alt="Youtube Page" />
                             </Link>
                             <Link href="/" className="mr-4">
-                                <Image src="/icons/facebook.svg" width={30} height={30} alt="Facebook Page" />
+                                <Image src="/icons/facebook-sub.svg" width={30} height={30} alt="Facebook Page" />
                             </Link>
                             <Link href="/">
-                                <Image src="/icons/instagram.svg" width={30} height={30} alt="Instagram Page" />
-                            </Link> */}
-                            Here
+                                <Image src="/icons/instagram-sub.svg" width={30} height={30} alt="Instagram Page" />
+                            </Link>
                         </p>
                     </div>
 
@@ -46,7 +45,7 @@ export default function Contact() {
                             Liên hệ trực tiếp với chúng tôi qua điện thoại để được hỗ trợ và thông tin nhanh chóng về các hoạt động của
                             Bluewave.
                         </p>
-                        <p className="text-sub-dark">(+84)766-829-782</p>
+                        <p className="text-sub-dark font-bold">(+84)766-829-782</p>
                     </div>
 
                     <div className="flex flex-col items-center px-14 pt-20 gap-10 border-l-2 border-gray-400">
@@ -56,10 +55,59 @@ export default function Contact() {
                             Gửi email hoặc điền vào form liên hệ để chúng tôi có thể phản hồi và đồng hành cùng bạn trong hành trình bảo vệ
                             đại dương.
                         </p>
-                        <p className="text-sub-dark">bluew5360@gmail.com</p>
+                        <p className="text-sub-dark font-bold">bluew5360@gmail.com</p>
                     </div>
                 </div>
             </div>
+
+            {/* <div className="sketchfab-embed-wrapper">
+                {" "}
+                <iframe
+                    title="Dugong swimming"
+                    width="50%" //
+                    frameBorder="0"
+                    allowFullScreen
+                    allow="autoplay; fullscreen; xr-spatial-tracking"
+                    xr-spatial-tracking
+                    execution-while-out-of-viewport
+                    execution-while-not-rendered
+                    web-share
+                    src="https://sketchfab.com/models/b8621af0a5854b42b990149dd30ce64b/embed"
+                >
+                    {" "}
+                </iframe>{" "}
+                <p style={{ fontSize: "13px", fontWeight: "normal", margin: "5px", color: "#4A4A4A" }}>
+                    {" "}
+                    <a
+                        href="https://sketchfab.com/3d-models/dugong-swimming-b8621af0a5854b42b990149dd30ce64b?utm_medium=embed&utm_campaign=share-popup&utm_content=b8621af0a5854b42b990149dd30ce64b"
+                        target="_blank"
+                        rel="nofollow"
+                        style={{ fontWeight: "bold", color: "#1CAAD9" }}
+                    >
+                        {" "}
+                        Dugong swimming{" "}
+                    </a>{" "}
+                    by{" "}
+                    <a
+                        href="https://sketchfab.com/claudicr9?utm_medium=embed&utm_campaign=share-popup&utm_content=b8621af0a5854b42b990149dd30ce64b"
+                        target="_blank"
+                        rel="nofollow"
+                        style={{ fontWeight: "bold", color: "#1CAAD9" }}
+                    >
+                        {" "}
+                        Claudia Carceles{" "}
+                    </a>{" "}
+                    on{" "}
+                    <a
+                        href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=b8621af0a5854b42b990149dd30ce64b"
+                        target="_blank"
+                        rel="nofollow"
+                        style={{ fontWeight: "bold", color: "#1CAAD9" }}
+                    >
+                        Sketchfab
+                    </a>
+                </p>
+            </div> */}
         </>
     );
 }

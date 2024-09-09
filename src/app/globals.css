@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slider .slider-image {
+    transition: transform 0.2s ease-in-out;
+}
+
+.slider:hover .slider-image {
+    transform: scale(1.05);
+    filter: blur(3px);
+}
+
+.slider div p {
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider:hover div p {
+    /* transform with animation */
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider-link {
+    transition: transform 0.1s ease-in-out;
+}
+
+.slider-link:hover {
+    transform: scale(1.2);
+    transition: transform 0.1s ease-in-out;
+}
