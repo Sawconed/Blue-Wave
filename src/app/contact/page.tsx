@@ -8,20 +8,20 @@ export default function Contact() {
                 <Image src="/images/contact-jumbotron.png" alt="background" width={3000} height={3000} objectFit="cover" className="-z-0" />
 
                 <div className="absolute top-0 h-full w-full flex flex-col justify-center items-center  text-center text-white">
-                    <h1 className="font-extrabold text-8xl">CONTACT US</h1>
-                    <h2 className="text-5xl">...</h2>
-                    <p className="text-lg mt-10">
+                    <h1 className="font-extrabold text-[5vw]">CONTACT US</h1>
+                    <h2 className="text-[3vw]">...</h2>
+                    <p className="text-[1.2vw] mt-10 w-[32em]">
                         Liên hệ với chúng tôi để cùng chung tay bảo vệ đại dương và gìn giữ những loài sinh vật biển quý hiếm.
                     </p>
                 </div>
             </div>
 
-            <div className="mt-40 mb-56 mx-20">
-                <div className="flex flex-row items-center justify-between text-center">
-                    <div className="flex flex-col items-center px-14 pt-20 gap-10 border-r-2 border-gray-400">
+            <div className="mt-8 md:mt-40 mb-16 md:mb-56 mx-4 md:mx-20">
+                <div className="flex flex-col md:flex-row items-center justify-evenly text-center">
+                    <div className="flex flex-col items-center px-[2vw] pt-20 gap-5 md:gap-10">
                         <Image src="/icons/visit.svg" alt="Blue Wave Media" width={100} height={100} />
-                        <h1 className="text-[#685A55] font-semibold text-3xl">VISIT US</h1>
-                        <p className="text-[#737373]">
+                        <h1 className="text-[#685A55] font-semibold text-[3.5vw] lg:text-[2vw]">VISIT US</h1>
+                        <p className="text-[#737373] text-[1.5vw] sm:w-[70%] md:w-full md:text-[1.3vw] lg:text-[1vw]">
                             Hãy ghé thăm các trang mạng xã hội của chúng tôi để tìm hiểu thêm về chiến dịch và tham gia vào các hoạt động
                             bảo vệ môi trường biển.
                         </p>
@@ -38,20 +38,20 @@ export default function Contact() {
                         </p>
                     </div>
 
-                    <div className="flex flex-col items-center px-14 pt-20 gap-10">
+                    <div className="flex flex-col items-center px-[2vw] pt-20 gap-5 md:gap-10 md:border-x-2 md:border-gray-400">
                         <Image src="/icons/call.svg" alt="Blue Wave Media" width={100} height={100} />
-                        <h1 className="text-[#685A55] font-semibold text-3xl">CALL US</h1>
-                        <p className="text-[#737373]">
+                        <h1 className="text-[#685A55] font-semibold text-[3.5vw] lg:text-[2vw]">CALL US</h1>
+                        <p className="text-[#737373] text-[1.5vw] sm:w-[70%] md:w-full md:text-[1.3vw] lg:text-[1vw]">
                             Liên hệ trực tiếp với chúng tôi qua điện thoại để được hỗ trợ và thông tin nhanh chóng về các hoạt động của
                             Bluewave.
                         </p>
                         <p className="text-sub-dark font-bold">(+84)766-829-782</p>
                     </div>
 
-                    <div className="flex flex-col items-center px-14 pt-20 gap-10 border-l-2 border-gray-400">
+                    <div className="flex flex-col items-center px-[2vw] pt-20 gap-5 md:gap-10">
                         <Image src="/icons/email.svg" alt="Blue Wave Media" width={100} height={100} />
-                        <h1 className="text-[#685A55] font-semibold text-3xl">CONTACT US</h1>
-                        <p className="text-[#737373]">
+                        <h1 className="text-[#685A55] font-semibold text-[3.5vw] lg:text-[2vw] text-nowrap">CONTACT US</h1>
+                        <p className="text-[#737373] text-[1.5vw] sm:w-[70%] md:w-full md:text-[1.3vw] lg:text-[1vw]">
                             Gửi email hoặc điền vào form liên hệ để chúng tôi có thể phản hồi và đồng hành cùng bạn trong hành trình bảo vệ
                             đại dương.
                         </p>

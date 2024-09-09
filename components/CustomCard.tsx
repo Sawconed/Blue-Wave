@@ -24,12 +24,12 @@ const CustomCard = ({ species, className, size = "md", href }: CustomCardProps) 
             <div
                 className={`absolute ${
                     href ? "-bottom-5" : "bottom-4"
-                } flex flex-col items-center text-center w-full font-semibold text-lg ${className}`}
+                } flex flex-col items-center text-center w-full font-semibold text-[2vw] md:text-lg ${className}`}
             >
                 <p className="text-white mb-4">{species.name}</p>
                 {href && (
                     <Link href={href}>
-                        <div className="slider-link bg-sub-dark rounded-full py-3 px-4">
+                        <div className="slider-link bg-sub-dark rounded-full py-[1vw] px-[2vw] md:py-3 md:px-4">
                             <Image src="/icons/arrow-right.svg" alt="arrow-right" width={10} height={10} />
                         </div>
                     </Link>
