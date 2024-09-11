@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import TranslatedView from "../../../components/TranslateView";
 
 export default function Contact() {
     return (
@@ -7,18 +8,21 @@ export default function Contact() {
             <div className="relative">
                 <Image src="/images/contact-jumbotron.png" alt="background" width={3000} height={3000} objectFit="cover" className="-z-0" />
 
-                <div className="absolute top-0 h-full w-full flex flex-col justify-center items-center  text-center text-white">
+                <TranslatedView
+                    direction="scale down"
+                    className="absolute top-0 h-full w-full flex flex-col justify-center items-center  text-center text-white"
+                >
                     <h1 className="font-extrabold text-[5vw]">CONTACT US</h1>
                     <h2 className="text-[2.5vw]">...</h2>
                     <p className="text-[1vw] mt-10 w-[40em]">
                         Liên hệ với chúng tôi để cùng chung tay bảo vệ đại dương và gìn giữ những loài sinh vật biển quý hiếm.
                     </p>
-                </div>
+                </TranslatedView>
             </div>
 
             <div className="mt-8 md:mt-40 mb-16 md:mb-56 mx-4 md:mx-20">
                 <div className="flex flex-col md:flex-row items-center justify-evenly text-center">
-                    <div className="flex flex-col items-center px-[2vw] pt-20 gap-5 md:gap-10">
+                    <TranslatedView direction="scale up" className="flex flex-col items-center px-[2vw] pt-20 gap-5 md:gap-10">
                         <Image src="/icons/visit.svg" alt="Blue Wave Media" width={100} height={100} />
                         <h1 className="text-[#685A55] font-semibold text-[3.5vw] lg:text-[2vw]">VISIT US</h1>
                         <p className="text-[#737373] text-[1.5vw] sm:w-[70%] md:w-full md:text-[1.3vw] lg:text-[1vw]">
@@ -36,9 +40,12 @@ export default function Contact() {
                                 <Image src="/icons/instagram-sub.svg" width={30} height={30} alt="Instagram Page" />
                             </Link>
                         </p>
-                    </div>
+                    </TranslatedView>
 
-                    <div className="flex flex-col items-center px-[2vw] pt-20 gap-5 md:gap-10 md:border-x-2 md:border-gray-400">
+                    <TranslatedView
+                        direction="scale up"
+                        className="flex flex-col items-center px-[2vw] pt-20 gap-5 md:gap-10 md:border-x-2 md:border-gray-400"
+                    >
                         <Image src="/icons/call.svg" alt="Blue Wave Media" width={100} height={100} />
                         <h1 className="text-[#685A55] font-semibold text-[3.5vw] lg:text-[2vw]">CALL US</h1>
                         <p className="text-[#737373] text-[1.5vw] sm:w-[70%] md:w-full md:text-[1.3vw] lg:text-[1vw]">
@@ -46,9 +53,9 @@ export default function Contact() {
                             Bluewave.
                         </p>
                         <p className="text-sub-dark font-bold">(+84)766-829-782</p>
-                    </div>
+                    </TranslatedView>
 
-                    <div className="flex flex-col items-center px-[2vw] pt-20 gap-5 md:gap-10">
+                    <TranslatedView direction="scale up" className="flex flex-col items-center px-[2vw] pt-20 gap-5 md:gap-10">
                         <Image src="/icons/email.svg" alt="Blue Wave Media" width={100} height={100} />
                         <h1 className="text-[#685A55] font-semibold text-[3.5vw] lg:text-[2vw] text-nowrap">CONTACT US</h1>
                         <p className="text-[#737373] text-[1.5vw] sm:w-[70%] md:w-full md:text-[1.3vw] lg:text-[1vw]">
@@ -56,7 +63,7 @@ export default function Contact() {
                             đại dương.
                         </p>
                         <p className="text-sub-dark font-bold">bluew5360@gmail.com</p>
-                    </div>
+                    </TranslatedView>
                 </div>
             </div>
 

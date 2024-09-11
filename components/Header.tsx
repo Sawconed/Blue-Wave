@@ -7,7 +7,7 @@ const Header = () => (
             <Image src="/icons/logo.png" width={100} height={100} alt="Blue Wave logo" className="h-24" />
         </Link>
 
-        <ul className="hidden md:flex flex-row justify-between items-center font-bold text-white sm:text-[1.8vw] md:text-[1.5vw] lg:text-[max(1vw,80%)] mr-3">
+        <ul className="flex flex-row justify-between items-center font-bold text-white text-[1.8vw] md:text-[1.5vw] lg:text-[100%] mr-3">
             <li className="hover:text-sub-light">
                 <Link href="/">TRANG CHỦ</Link>
             </li>
