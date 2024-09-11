@@ -9,8 +9,8 @@ export default function Contact() {
 
                 <div className="absolute top-0 h-full w-full flex flex-col justify-center items-center  text-center text-white">
                     <h1 className="font-extrabold text-[5vw]">CONTACT US</h1>
-                    <h2 className="text-[3vw]">...</h2>
-                    <p className="text-[1.2vw] mt-10 w-[32em]">
+                    <h2 className="text-[2.5vw]">...</h2>
+                    <p className="text-[1vw] mt-10 w-[40em]">
                         Liên hệ với chúng tôi để cùng chung tay bảo vệ đại dương và gìn giữ những loài sinh vật biển quý hiếm.
                     </p>
                 </div>

@@ -7,7 +7,7 @@ const getButtonSizeVariant = (size: string) => {
         case "sm":
             return "py-2 px-4 text-sm rounded-md";
         case "lg":
-            return "py-[1%] px-[2%] text-[60%] md:text-[1vw] rounded-lg";
+            return "py-[0.8%] px-[1.8%] text-[60%] md:text-[0.8vw] rounded-lg";
         default:
             return "py-[1.5%] px-[2.5%] text-[70%] md:text-[0.8vw] rounded-md";
     }
